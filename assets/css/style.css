@@ -1,10 +1,19 @@
 /* filepath: c:\hafsa-bootcamp\empowering-minds\style.css */
 
+/* CSS Variables */
+:root {
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #3a2620; /* dark brown */
+    --secondary-color: #aa9581; /* light brown */
+    --highlight-color: #f0f3f7; /* blue */
+    --highlight-color-light: #7a9fc2; /* light blue */
+}
 /* General body styles */
 body {
     background: #faf7f2;
     font-family: 'Playfair Display', serif;
-    margin: 0;
+    margin-top: 60px;
 }
 
 /* Navigation bar styles */
@@ -12,10 +21,51 @@ body {
     background: #72594f;
     color: #fff;
     display: flex;
-    font-size: large;
+    font-size: medium;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 60px 40px 60px;
+    padding: 0px 20px;
+}
+
+h3{
+    font-size: medium;
+}
+
+.oval-img {
+    
+    object-fit: cover;
+    width: 90%; /* Reduce this value for a smaller image */
+    max-width: 500px; /* Optional: set a maximum width */
+}
+
+/* Buttons */
+
+
+.custom-button {
+    border: 2px solid var(--secondary-color);
+    padding: 7px 25px;
+    color: var(--highlight-color)
+}
+
+.custom-button:hover {
+    background-color: var(--secondary-color);
+    color: white
+}
+
+.custom-navbar .nav-link {
+    color: #fff !important;
+}
+
+.custom-navbar .nav-link:hover {
+    color: var(--secondary-color) !important;
+}
+
+.section {
+    padding-top: 4rem; /* prevent navbar overlap */
+}
+
+#navbar.btn{
+    color: #fff;
 }
 
 
