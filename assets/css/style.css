@@ -34,8 +34,15 @@ h3{
 .oval-img {
     
     object-fit: cover;
-    width: 90%; /* Reduce this value for a smaller image */
-    max-width: 500px; /* Optional: set a maximum width */
+    width: 50%; /* Reduce this value for a smaller image */
+    max-width: 300px; /* Optional: set a maximum width */
+    max-height: 100%;
+}
+
+.custom-img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
 }
 
 /* Buttons */
@@ -74,22 +81,6 @@ h3{
     font-weight: bold;
     margin: 0;
 }
-@media (max-width: 768px) {
-    .responsive-title {
-        font-size: 2rem;
-    }
-}
-@media (max-width: 576px) {
-    .responsive-title {
-        font-size: 1.5rem;
-    }
-}
-
-@media (max-width: 844px) {
-    .responsive-title {
-        font-size: 1rem;
-    }
-}
 
 /* Hero section styles */
 .hero {
@@ -109,3 +100,31 @@ h3{
     color: #3d2f29;
     margin-bottom: 40px;
 }
+
+@media (max-width: 768px) {
+    .responsive-title {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 576px) {
+    .responsive-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 844px) {
+    .responsive-title {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-navbar {
+        min-height: 70px; /* Increase navbar height for mobile */
+        padding: 10px 10px;
+    }
+    body {
+        margin-top: 80px; /* Add more space above content */
+    }
+}
+
