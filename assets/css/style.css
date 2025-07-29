@@ -27,16 +27,24 @@ body {
     padding: 0px 20px;
 }
 
+.navbar-brand{
+    color: #fff;
+}
+
+.navbar-brand:hover{
+    color: var(--secondary-color);
+}
+
 h3{
     font-size: medium;
 }
 
-.oval-img {
-    
-    object-fit: cover;
-    width: 50%; /* Reduce this value for a smaller image */
-    max-width: 300px; /* Optional: set a maximum width */
-    max-height: 100%;
+
+.oval-card {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50% / 40%; /* oval effect */
 }
 
 .custom-img {
@@ -71,8 +79,16 @@ h3{
     padding-top: 4rem; /* prevent navbar overlap */
 }
 
-#navbar.btn{
-    color: #fff;
+.navbar-button {
+  color: #fff;
+  border: 2px solid var(--secondary-color);
+  padding: 7px 25px;
+  background-color: transparent;
+}
+
+.navbar-button:hover {
+  background-color: var(--secondary-color);
+  color: white;
 }
 
 
