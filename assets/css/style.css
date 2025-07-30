@@ -16,6 +16,10 @@ body {
     margin-top: 60px;
 }
 
+p{
+    font-style: normal;
+}
+
 /* Navigation bar styles */
 .custom-navbar {
     background: #72594f;
@@ -105,6 +109,17 @@ h3{
     margin: 0;
 }
 
+.custom-button-outline {
+    border: 3px solid var(--highlight-color);
+    padding: 7px 25px;
+    color: var(--highlight-color)
+}
+
+.custom-button-outline:hover {
+    background-color: var(--highlight-color);
+    color: white
+}
+
 /* Hero section styles */
 .hero {
     padding: 80px 60px 0 60px;
@@ -122,6 +137,17 @@ h3{
     font-size: 28px;
     color: #3d2f29;
     margin-bottom: 40px;
+}
+
+#contact.social-links i {
+    color: var(--highlight-color-light);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+   
+}
+
+#contact.social-links i:hover {
+    color: var(--secondary-color);
 }
 
 @media (max-width: 768px) {
