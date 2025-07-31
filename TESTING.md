@@ -7,7 +7,7 @@ This document outlines the testing checklist for the **Empowering Minds** mental
 
 ## 1. code Testing using W3C
 
-![Alt text](assets/images/htmlcheck.png)
+![Alt text](assets/images/htmltest.png)
 
 ![Alt text](assets/images/csschecked.png)
 
@@ -38,7 +38,7 @@ This document outlines the testing checklist for the **Empowering Minds** mental
 ## 4. Browser Compatibility
 
 | Browser                | Result   | Notes         |
-|----------------                   |               |
+|----------------         |---------|---------------|
 | Google Chrome          | ✅       |               |
 | Safari                 | ✅       |               |
 | Mobile (Chrome/Safari) | ✅       |               |
