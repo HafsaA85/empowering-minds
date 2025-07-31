@@ -25,16 +25,16 @@ Whether you're seeking knowledge, encouragement, or therapeutic options, *Empowe
 - CSS3  
 - Bootstrap (for responsive components)
 
-## 📁 Project Structure
+## Project Structure
 
 ## 🔗 Live Site
 
-[Visit Empowering Minds](#) *(Replace with your actual URL when deployed)*
+[Visit Empowering Minds](#) *()*
 
 ---
 
 
-## 🚀 Deployment
+## Deployment
 
 This website is deployed using **GitHub Pages**.
 
