@@ -16,6 +16,8 @@ body {
     margin-top: 60px;
 }
 
+
+
 p{
     font-style: normal;
 }
@@ -51,10 +53,16 @@ h3{
   border-radius: 50% / 40%; /* oval effect */
 }
 
+
 .custom-img {
   max-width: 300px;
   width: 100%;
   height: auto;
+}
+
+.follow-us{
+    max-width: 100px;
+    
 }
 
 /* Buttons */
