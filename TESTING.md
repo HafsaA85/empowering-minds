@@ -8,6 +8,7 @@ This document outlines the testing checklist for the **Empowering Minds** mental
 ## 1. code Testing using W3C
 
 ![Alt text](assets/images/htmlcheck.png)
+
 ![Alt text](assets/images/csschecked.png)
 
 ## 2. Functional Testing
@@ -39,8 +40,6 @@ This document outlines the testing checklist for the **Empowering Minds** mental
 | Browser                | Result   | Notes         |
 |----------------                   |               |
 | Google Chrome          | ✅       |               |
-| Mozilla Firefox        | ✅       |               |
-| Microsoft Edge         | ✅       |               |
 | Safari                 | ✅       |               |
 | Mobile (Chrome/Safari) | ✅       |               |
 
