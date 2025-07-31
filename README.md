@@ -4,6 +4,12 @@
 
 ![Alt text](assets/images/Palette.png)
 
+![Alt text](assets/images/allscreens.png)
+
+## 🔗 Live Site
+
+[Visit Empowering Minds](#) *(https://hafsaa85.github.io/empowering-minds/)*
+
 **Empowering Minds** is a mental health awareness website dedicated to supporting individuals on their journey to emotional well-being. Our mission is to raise awareness, break the stigma surrounding mental health, and offer accessible, compassionate support to those who need it.
 
 ## About the Website
@@ -24,12 +30,6 @@ Whether you're seeking knowledge, encouragement, or therapeutic options, *Empowe
 - HTML5  
 - CSS3  
 - Bootstrap (for responsive components)
-
-## Project Structure
-
-## 🔗 Live Site
-
-[Visit Empowering Minds](#) *()*
 
 ---
 
