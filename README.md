@@ -38,7 +38,7 @@ Whether you're seeking knowledge, encouragement, or therapeutic options, *Empowe
 
 This website is deployed using **GitHub Pages**.
 
-### 📦 How to Deploy
+### How to Deploy
 
 To deploy this project from your GitHub repository:
 
